@@ -1,0 +1,12 @@
+0 verbose cli /home/krishna/.nvm/versions/node/v24.1.0/bin/node /home/krishna/.nvm/versions/node/v24.1.0/bin/npm
+1 info using npm@11.5.2
+2 info using node@v24.1.0
+3 silly config load:file:/home/krishna/.nvm/versions/node/v24.1.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/krishna/ecom-cart/backend/.npmrc
+5 silly config load:file:/home/krishna/.npmrc
+6 silly config load:file:/home/krishna/.nvm/versions/node/v24.1.0/etc/npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:/home/krishna/ecom-cart/backend/npm-cache/_logs/2025-10-29T03_55_54_765Z-
+10 verbose logfile /home/krishna/ecom-cart/backend/npm-cache/_logs/2025-10-29T03_55_54_765Z-debug-0.log
+11 silly logfile done cleaning log files
