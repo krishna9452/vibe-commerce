@@ -73,3 +73,75 @@ A full-stack shopping cart application built with React frontend and Node.js/Exp
    Frontend runs on http://localhost:3000
 4. **Access the Application**
    Open your browser and navigate to http://localhost:3000
+
+## 📁 Project Structure
+ ```text
+ ecom-cart/
+├── backend/
+│   ├── package.json
+│   ├── server.js          # Main server file
+│   └── README.md
+├── frontend/
+│   ├── package.json
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js         # Main React component
+│   │   ├── App.css        # Styles
+│   │   ├── index.js       # React entry point
+│   │   └── index.css      # Global styles
+│   └── README.md
+└── README.md
+```
+## 🎯 Functionality
+### Product Catalog
+- View 8 sample products with images, descriptions, and prices
+- Add products to shopping cart
+- Responsive grid layout
+  
+### Shopping Cart
+- View all added items with quantities
+- Remove items from cart
+- Real-time total calculation
+- Item count in navigation
+
+### Checkout Process
+- Customer information form (name & email)
+- Order summary review
+- Mock payment processing
+- Order confirmation with receipt
+
+## 🎨 UI/UX Features
+- Modern Design: Clean, professional e-commerce interface
+- Responsive: Works on desktop, tablet, and mobile devices
+- Smooth Animations: Hover effects and transitions
+- Error Handling: User-friendly error messages
+- Loading States: Visual feedback during operations
+
+## 📊 Database Schema
+### Products Table
+- ```id``` (TEXT PRIMARY KEY)
+- ```name``` (TEXT NOT NULL)
+- ```price``` (REAL NOT NULL)
+- ```image``` (TEXT)
+- ```description``` (TEXT)
+
+### Cart Items Table
+- ```id``` (TEXT PRIMARY KEY)
+- ```productId``` (TEXT NOT NULL)
+- ```quantity``` (INTEGER NOT NULL)
+- ```addedAt``` (DATETIME DEFAULT CURRENT_TIMESTAMP)
+
+## 🔧 Development
+### Backend Development
+```bash
+cd backend
+npm run dev  
+```
+### Frontend Development
+```bash
+cd frontend
+npm start
+```
+
+
+
